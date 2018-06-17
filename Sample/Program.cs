@@ -21,7 +21,7 @@ namespace Sample
         {
             // authenticates
             AuthenticationResponse authentication =
-                new Authentication(new Credentials("admin", "cabanon13"))
+                new Authentication(new Credentials("admin", "password"))
                 .PerformRequestAsync()
                 .Result;
 
